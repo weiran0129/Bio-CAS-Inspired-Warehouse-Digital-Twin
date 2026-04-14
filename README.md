@@ -11,7 +11,9 @@ This repository contains the architecture, simulation environments, and edge-clo
 ---
 
 ## 📖 Overview
-
+<div margin: 20px 0;>
+  <img src="src/Final Warehouse DT Architecture.png" alt="ASR Histogram">
+</div>
 Modern automated warehouses operate at high speeds where the margin for physical error is near zero. Traditional Warehouse Management Systems (WMS) rely on global hardware stops during hazard events, resulting in massive facility-wide throughput collapse. 
 
 To address this, we propose a biologically-inspired, closed-loop Digital Twin architecture leveraging the NVIDIA ecosystem. By decoupling the **Operational Edge** (NVIDIA Jetson, IGX) acting as rapid "reflexes" from the **Cognitive Cloud** (DGX, Omniverse, cuOpt) acting as the "brain," we achieve a highly resilient dual-stream system. 
