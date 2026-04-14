@@ -12,7 +12,7 @@ This repository contains the architecture, simulation environments, and edge-clo
 
 ## 📖 Overview
 <div margin: 20px 0;>
-  <img src="src/Final Warehouse DT Architecture.png" alt="ASR Histogram">
+  <img src="src/Final Warehouse DT Architecture.png">
 </div>
 Modern automated warehouses operate at high speeds where the margin for physical error is near zero. Traditional Warehouse Management Systems (WMS) rely on global hardware stops during hazard events, resulting in massive facility-wide throughput collapse. 
 
@@ -28,7 +28,9 @@ To address this, we propose a biologically-inspired, closed-loop Digital Twin ar
 
 ## 🛠️ System Architecture
 
-1. **The Operational Edge (Physical Reality):** Data distillation and reflexive control via NVIDIA Jetson and IGX nodes.
+1. **The Operational Edge (Physical Reality):** Data distillation and reflexive control via NVIDIA Jetson and IGX nodes. <div margin: 20px 0;>
+  <img src="src/Final Warehouse DT Architecture.png">
+</div>
 2. **The Cognitive Cloud (Virtual Expectation):** Global VRP routing via NVIDIA cuOpt and physically accurate simulation via Omniverse PhysX 5.
 3. **The Convergence Point:** The Entropy Comparator triggers adaptive resolution workflows based on state divergence.
 
