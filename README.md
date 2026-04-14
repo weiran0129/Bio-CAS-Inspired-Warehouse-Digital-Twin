@@ -33,6 +33,7 @@ To address this, we propose a biologically-inspired, closed-loop Digital Twin ar
 <div margin: 20px 0;>
   <img src="src/simulation.png">
 </div>
+
 1. **The Operational Edge (Physical Reality):** Data distillation and reflexive control via NVIDIA Jetson and IGX nodes. 
 2. **The Cognitive Cloud (Virtual Expectation):** Global VRP routing via NVIDIA cuOpt and physically accurate simulation via Omniverse PhysX 5.
 3. **The Convergence Point:** The Entropy Comparator triggers adaptive resolution workflows based on state divergence.
